@@ -7,6 +7,7 @@ class Settings(BaseSettings):
     groq_api_key_2: str  # eval + summarization
     agent_model: str
     eval_model: str
+    reasoning_effort: str = "medium"
     db_path: str = "/data/sales_agent.db"
     max_history_messages: int = 20    # messages per session injected into context
     summarize_after_messages: int = 40  # trigger summarization after N total messages

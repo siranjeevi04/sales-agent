@@ -66,6 +66,7 @@ def run_agent(
             tools=TOOL_DEFINITIONS,
             tool_choice="auto",
             messages=messages,
+            reasoning_effort=settings.reasoning_effort,
         )
 
         choice = response.choices[0]

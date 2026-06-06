@@ -29,6 +29,7 @@ def evaluate_response(
         resp = client.chat.completions.create(
             model=settings.eval_model,
             max_tokens=512,
+            reasoning_effort=settings.reasoning_effort,
             messages=[
                 {"role": "system", "content": _EVAL_SYSTEM},
                 {
