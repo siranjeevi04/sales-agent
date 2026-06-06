@@ -28,8 +28,7 @@ def evaluate_response(
     try:
         resp = client.chat.completions.create(
             model=settings.eval_model,
-            max_tokens=256,
-            temperature=0,
+            max_tokens=512,
             messages=[
                 {"role": "system", "content": _EVAL_SYSTEM},
                 {
