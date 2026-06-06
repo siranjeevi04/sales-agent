@@ -1,5 +1,5 @@
 """
-Self-evaluation module. Uses a fast Groq model (llama-3.1-8b-instant) to score
+Self-evaluation module. Uses a Groq model (openai/gpt-oss-120b) to score
 every assistant response on groundedness, relevance, and confidence.
 """
 import json

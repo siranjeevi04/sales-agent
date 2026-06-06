@@ -28,11 +28,11 @@ AgentLoop.run_agent()         ← app/agents/loop.py
      └─► [Tool: flag_for_human]     ← logs to FlaggedLog table
      │
      ▼
-LLM: Groq llama3-groq-70b (tool use)
+LLM: Groq openai/gpt-oss-120b (tool use)
      │
      ▼
 EvalService.evaluate_response()   ← app/agents/eval.py
-     │   Groq llama-3.1-8b-instant → groundedness / relevance / confidence
+     │   Groq openai/gpt-oss-120b → groundedness / relevance / confidence
      │
      ▼
 Response:
@@ -113,7 +113,7 @@ Expected: agent calls `get_user_memory`, knows user asked about SSO/30 people, c
 
 ## Eval Design
 
-Every response is scored by `llama-3.1-8b-instant` (fast, cheap) on three dimensions:
+Every response is scored by `openai/gpt-oss-120b` on three dimensions:
 
 | Score | What it measures |
 |-------|-----------------|
