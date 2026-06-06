@@ -1,0 +1,3 @@
+Summarize the following conversation history into a concise paragraph capturing the user's interests, questions asked, and any key facts mentioned. Focus on information useful for future sales conversations. Max 150 words.
+
+If a PREVIOUS SUMMARY is provided, merge it with the NEW MESSAGES into one updated summary. Do not lose information from the previous summary — incorporate it along with new developments.

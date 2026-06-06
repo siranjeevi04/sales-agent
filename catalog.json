@@ -1,0 +1,42 @@
+{
+  "plans": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "price": "$49/mo",
+      "features": ["5 users", "API access", "email support"]
+    },
+    {
+      "id": "growth",
+      "name": "Growth",
+      "price": "$199/mo",
+      "features": ["25 users", "webhooks", "priority support", "API access"]
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "price": "$499/mo",
+      "features": ["unlimited users", "SSO", "audit logs", "SLA", "dedicated support", "custom integrations"]
+    }
+  ],
+  "addons": [
+    {
+      "id": "extra-storage",
+      "name": "Extra Storage",
+      "price": "$19/mo",
+      "features": ["100 GB additional storage"]
+    },
+    {
+      "id": "white-label",
+      "name": "White Label",
+      "price": "$49/mo",
+      "features": ["custom branding", "custom domain", "remove watermarks"]
+    },
+    {
+      "id": "onboarding",
+      "name": "Onboarding & Training",
+      "price": "$199 one-time",
+      "features": ["2-hour live session", "recorded replay", "custom Q&A"]
+    }
+  ]
+}
